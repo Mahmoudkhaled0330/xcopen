@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+proj = Dir['*.xcworkspace'].first
+proj = Dir['*.xcodeproj'].first unless proj
+
+if proj
+	puts "Opening #{proj}"
+	`open #{proj}`
+else
+	puts "No xcworkspace | xcproj file found"
+end 
+
