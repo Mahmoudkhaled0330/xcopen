@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Xopen::VERSION
   spec.authors       = ["Madson Cardoso"]
   spec.email         = ["madsonmac@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Opens Xcode workspace or project on the current folder."
+  spec.description   = "Script that opens the first .xcworkspace found on the current folder, or the first .xcodeproj found (if no workspace was found)."
+  spec.homepage      = "http://github.com/madson/xopen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
