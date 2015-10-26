@@ -1,0 +1,8 @@
+#!/bin/bash
+
+gem_name=$(ruby -e "puts File.basename(Dir.pwd)")
+
+gem uninstall $gem_name --force --quiet
+rm *.gem
+gem build $gem_name.gemspec
+gem install $gem_name*.gem
