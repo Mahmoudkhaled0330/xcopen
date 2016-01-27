@@ -1,5 +1,9 @@
 require "xopen/version"
 
 module Xopen
-  # Your code goes here...
+  class Runner
+    def self.run!
+      
+    end
+  end
 end
