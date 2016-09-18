@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in xopen.gemspec
+# Specify your gem's dependencies in xcopen.gemspec
 gemspec

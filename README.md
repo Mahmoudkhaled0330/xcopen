@@ -6,17 +6,17 @@ Xopen is a command line that opens the first .xcworkspace found on the current f
 
 Install from RubyGems:
 
-    $ gem install xopen
+    $ gem install xcopen
 
 ## Usage
 
 Just run the command on the project's folder:
 
-	$ xopen
+	$ xcopen
 
 ## Contributing
 
-1. Fork it ( https://github.com/madson/xopen/fork )
+1. Fork it ( https://github.com/madson/xcopen/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

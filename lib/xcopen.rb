@@ -1,9 +1,10 @@
-require "xopen/version"
+require "xcopen/version"
 
-module Xopen
+module Xcopen
   class Runner
     def self.run!
       
     end
   end
 end
+

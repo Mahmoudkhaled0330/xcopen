@@ -9,3 +9,4 @@ if proj
 else
 	puts "No xcworkspace | xcproj file found"
 end
+

@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'xopen/version'
+require 'xcopen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "xopen"
-  spec.version       = Xopen::VERSION
+  spec.name          = "xcopen"
+  spec.version       = Xcopen::VERSION
   spec.authors       = ["Madson Cardoso"]
   spec.email         = ["madsonmac@gmail.com"]
   spec.summary       = "Opens Xcode workspace or project on the current folder."
-  spec.description   = "Script that opens the first .xcworkspace found on the current folder, or the first .xcodeproj found (if no workspace was found)."
-  spec.homepage      = "http://github.com/madson/xopen"
+  spec.description   = "Script that opens the first .xcworkspace found on the current folder or the first .xcodeproj found (if no workspace was found)."
+  spec.homepage      = "http://github.com/madson/xcopen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
