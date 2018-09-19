@@ -25,4 +25,4 @@ Just run the command on the project's folder:
 ## Credits
 
 * Marcelo Fabri (Original code) - [http://www.marcelofabri.com/xopen/](http://www.marcelofabri.com/xopen/)
-* Madson Cardoso (Ruby gem) - [http://www.madsonmac.com/](http://www.madsonmac.com/)
+* Madson Cardoso (Ruby gem) - [http://www.madson.us/](http://www.madson.us/)
